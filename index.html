@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <title>Freelance Graphic Design</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">PORTfolio</div>
+            <h2>Graphic Designer</h2>
+            
+            <nav class="nav">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!--Hamburger Icon -->
+                <div class="menu-toggle" id="menuToggle">&#9776;</div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <img src="images/profile1.jpg.png" alt="Your Name" class="profile-photo" />
+                <h2 class="animate-home">Creative Design, Tailored for You.</h2>
+                <p>Freelance Designer bringing your ideas to life.</p>
+                <a href="contact.html" class="btn">Book Me</a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/share/1AfUpDSnB5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.behance.net/letjhosijohn" target="_blank"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/letjhosi-john-mokoena-579b21264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <p>&copy; 2025 TS GRAPHICS. All rights reserved.</p>
+        </footer>
+
+        <script>
+            const menuToggle = document.getElementById("menuToggle");
+            const navLinks = document.getElementById("navLinks");
+
+            menuToggle.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <title>Freelance Graphic Design</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">PORTfolio</div>
+            <h2>Graphic Designer</h2>
+            
+            <nav class="nav">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- Hamburger Icon -->
+                <div class="menu-toggle" id="menuToggle">&#9776;</div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="portfolio">
+                <h2>My Work</h2>
+                <div class="portfolio-grid">
+                    <div class="project" onclick="openModal()">
+                        <img src="images/project 1.jpg.png" alt="Project 1" />
+                        <h3>Logo Design</h3>
+                        <p>A clean, modern logo for a Catering and Fast Food Company.</p>
+                    </div>
+
+                    <!-- Modal Structure -->
+                     <div id="logoModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                            <img src="images/project 1.2.jpg.png" alt="Logo Sample 1">
+                            <img src="images/project 1.7.jpg.png" alt="Logo Sample 2">
+                            <img src="images/project 1.5.jpg.png" alt="Logo Sample 3">
+                        </div>
+                     </div>
+
+                    <div class="project" onclick="openBrandingModal()">
+                        <img src="images/Cards mock ups.png" alt="Project 2" />
+                        <h3>RAB Inc. </br>Branding</h3>
+                        <p>Meet New Friends.</p>
+                    </div>
+
+                    <!-- Branding Modal -->
+                     <div id="brandingModal" class="modal">
+                        <span class="close" onclick="closeBrandingModal()">&times;</span>
+                        <div class="modal-content">
+                            <img src="images/RAB-Inc-LOGO-DESIGN-branding cover.png" alt="Branding Sample 1">
+                            <img src="images/RAB-Inc-LOGO-DESIGN-ORIGINAL.png" alt="Branding Sample 2">
+                            <img src="images/RAB-INC.-Steel-Logo-Mockup.jpg" alt="Branding Sample 3">
+                            <img src="images/Folded-Polo-Shirt-Mockup.png" alt="Branding Sample 4">
+                            <img src="images/RAB INC. BRAND IDENTITY final-6.png" alt="Branding Sample 5">
+                        </div>
+                     </div>
+
+                    <div class="project" onclick="openWebModal()">
+                        <img src="images/web1 homepage.png" alt="Project 3" />
+                        <h3>Web Design</h3>
+                        <p>Gave an old website a fresh, vibrant, responsive layout.</p>
+                    </div>
+
+                    <!-- Web Design Modal -->
+                     <div id="webModal" class="modal">
+                        <span class="close" onclick="closeWebModal()">&times;</span>
+                        <div class="modal-content">
+                            <img src="images/web1 homepage.png" alt="Web Design Sample 1">
+                            <img src="images/web2 about.png" alt="Web Design Sample 2">
+                            <img src="images/web3 services.png" alt="Web Design Sample 3">
+                            <img src="images/web4 projects.png" alt="Web Design Sample 4">
+                            <img src="images/web5 contact.png" alt="Web Design Sample 5">
+                        </div>
+                     </div>
+
+                    <div class="project" onclick="openBrochureModal()">
+                        <img src="images/horizontal-brochure-mockup-front.png" alt="Project 4" />
+                        <h3>Brochure</h3>
+                        <p>Corporate marketing instrument to promote a product or service rendered.</p>
+                    </div>
+
+                    <!-- Brochure Modal -->
+                     <div id="brochureModal" class="modal">
+                        <span class="close" onclick="closeBrochureModal()">&times;</span>
+                        <div class="modal-content">
+                            <img src="images/horizontal-brochure-mockup-front 2.png" alt="Brochure Sample 1">
+                            <img src="images/horizontal-brochure-mockup 2.png" alt="Brochure Sample 2">
+                            <img src="images/horizontal-brochure-mockup-inside3.4.png" alt="Brochure Sample 3">
+                            <img src="images/horizontal-brochure-mockup-inside.png" alt="Brochure Sample 4">
+                            <img src="images/horizontal-brochure-mockup 1 front & back.png" alt="Brochure Sample 5">
+                            <img src="images/horizontal-brochure-mockup-back.png" alt="Brochure Sample 6">
+                        </div>
+                     </div>
+
+                     <div class="project" onclick="openKnpModal()">
+                        <img src="images/Brand_Identity_page-0001.png" alt="Project 5" />
+                        <h3>KNP Branding</h3>
+                        <p>Kruger Panorama brand identity.</p>
+                    </div>
+
+                    <!-- Knp Branding Modal -->
+                     <div id="knpModal" class="modal">
+                        <span class="close" onclick="closeKnpModal()">&times;</span>
+                        <div class="modal-content">
+                            <img src="images/Brand_Identity_page-0002.png" alt="Knp Sample 1">
+                            <img src="images/Brand_Identity_page-0003.png" alt="Knp Sample 2">
+                            <img src="images/Brand_Identity_page-0004.png" alt="Knp Sample 3">
+                            <img src="images/Brand_Identity_page-0005.png" alt="Knp Sample 4">
+                            <img src="images/Brand_Identity_page-0007.png" alt="Knp Sample 5">
+                            <img src="images/Brand_Identity_page-0008.png" alt="Knp Sample 6">
+                            <img src="images/Brand_Identity_page-0009.png" alt="Knp Sample 7">
+                            <img src="images/Brand_Identity_page-0010.png" alt="Knp Sample 8">
+                        </div>
+                     </div>
+                </div>                
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/share/1AfUpDSnB5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.behance.net/letjhosijohn" target="_blank"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/letjhosi-john-mokoena-579b21264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <p>&copy; 2025 TS GRAPHICS. All rights reserved.</p>
+        </footer>
+
+        <script>
+            // Open modals
+            function openModal() {
+                document.getElementById("logoModal").style.display = "block";
+            }
+
+            function openBrandingModal() {
+                document.getElementById("brandingModal").style.display = "block";
+            }
+
+            function openWebModal() {
+                document.getElementById("webModal").style.display = "block";
+            }
+
+            function openBrochureModal() {
+                document.getElementById("brochureModal").style.display = "block";
+            }
+
+            function openKnpModal() {
+                document.getElementById("knpModal").style.display = "block";
+            }
+
+            // Close modals
+            function closeModal() {
+                document.getElementById("logoModal").style.display = "none";
+            }
+
+            function closeBrandingModal() {
+                document.getElementById("brandingModal").style.display = "none";
+            }
+
+            function closeWebModal() {
+                document.getElementById("webModal").style.display = "none";
+            }
+
+            function closeBrochureModal() {
+                document.getElementById("brochureModal").style.display = "none";
+            }
+
+            function closeKnpModal() {
+                document.getElementById("knpModal").style.display = "none";
+            }
+            
+            // Optional: Close modal on outside click
+            window.onclick = function(event) {
+                const logoModal = document.getElementById("logoModal");
+                const brandingModal = document.getElementById("brandingModal");
+                const webModal = document.getElementById("webModal");
+                const brochureModal = document.getElementById("brochureModal");
+                const knpModal = document.getElementById("KnpModal");
+
+                if (event.target === logoModal) {
+                    logoModal.style.display = "none";
+                } else if (event.target === brandingModal) {
+                    brandingModal.style.display = "none";
+                } else if (event.target === webModal) {
+                    webModal.style.display = "none";
+                } else if (event.target === brochureModal) {
+                    brochureModal.style.display = "none";
+                } else if (event.target === knpModal) {
+                    knpModal.style.display = "none";
+                }
+                
+                const menuToggle = document.getElementById("menuToggle");
+                const navLinks = document.getElementById("navLinks");
+
+                menuToggle.addEventListener("click", () => {
+                    navLinks.classList.toggle("active");
+                });
+            };
+
+            fetch('http://<your-server-ip>:5000/api/portfolio')
+                .then(res => res.json())
+                .then(projects => {
+                // display projects
+                console.log(projects);
+                });
+        </script>
+    </body>
+</html>
